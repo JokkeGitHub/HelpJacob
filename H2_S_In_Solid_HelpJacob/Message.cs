@@ -8,7 +8,7 @@ namespace H2_S_In_Solid_HelpJacob
 {
     public class Message : ISmtp, IVmessage
     {
-        // This superclass is responsible for creatting messages
+        // This superclass is responsible for creating the message object
         string to, from, body, subject, cc;
 
         public string To { get => to; set => to = value; }
